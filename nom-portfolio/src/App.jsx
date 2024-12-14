@@ -1,6 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import Header from "./components/header/Header";
-import HomePage from "./components/pages/homepage/HomePage";
+import HomePage from "./pages/homepage/HomePage";
 import '@fontsource/roboto'; 
 
 function App(){

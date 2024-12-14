@@ -1,0 +1,54 @@
+.main {
+  position: relative;
+
+  section {
+    height: auto;
+  }
+
+  .banner-section {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+  }
+}
+
+.content {
+  background-color: white;
+  position: relative;
+  z-index: 2;
+
+  section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    h2 {
+      position: relative;
+      font-size: 45px;
+      padding: 2% 0 0;
+      text-transform: uppercase;
+      letter-spacing: 10px;
+      margin: 90px 0px 60px 0px;
+      color: #333333;
+      text-shadow: 2px 2px 0px #00000000, 5px 4px 0px rgba(0, 0, 0, 0.15);
+    }
+
+    h2::after {
+      content: '';
+      position: absolute;
+      top: 100px;
+      height: 5px;
+      width: 120px;
+      background: darkseagreen;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 5px;
+    }
+  }
+  .presentation-section{
+    background: #fafafa;
+  }
+}
