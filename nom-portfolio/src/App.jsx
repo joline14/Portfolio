@@ -1,15 +1,17 @@
 import { BrowserRouter } from "react-router-dom";
 import Header from "./components/header/Header";
+import HomePage from "./components/pages/homepage/HomePage";
 import '@fontsource/roboto'; 
 
 function App(){
   return (
     <div className="App">
-      <BrowserRouter future={{v7_startTransition: true,v7_relativeSplatPath: true,}}>
+      <BrowserRouter>
        <Header/>
+       <HomePage/>
       </BrowserRouter>
     </div>
-  );
+  ); 
 }
 
 export default App

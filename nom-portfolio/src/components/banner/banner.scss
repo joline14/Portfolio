@@ -1,0 +1,175 @@
+.banner {
+    width: 100%;
+    height: 100vh;
+    position: relative; /* Nécessaire pour que les enfants en position absolue soient relatifs à ce parent */
+  
+    &_img {
+      background-image: url("../../assets/img/lampe.jpg");
+      width: 100%;
+      height: 100%;
+      object-fit: cover; /* Assure que l'image couvre entièrement la bannière */
+    }
+  
+    &_content {
+      position: absolute;
+      top: 280px; /* Ajustez pour déplacer vers le bas */
+      left: 50px; /* Ajustez pour déplacer vers la gauche */
+      color: black;
+      z-index: 2; /* S'assurer que le contenu est au-dessus de l'image */
+      text-align: left; /* Alignement du texte à gauche */
+      max-width: 500px; /* Limite la largeur pour un meilleur rendu */
+  
+      .banner_heading {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+        font-weight: bold;
+      }
+  
+      .banner_title {
+        font-size: 3rem;
+        margin-bottom: 15px;
+        font-family: "Playwrite CU", sans-serif;
+      }
+  
+      .banner_subtitle {
+        font-size: 1.2rem;
+        margin-bottom: 20px;
+        line-height: 1.5;
+      }
+  
+      .btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+  
+        &:hover {
+          background-color: white;
+          color: black;
+          border: 1px solid black;
+        }
+      }
+    }
+ 
+
+@media screen and (max-width: 768px) {
+    &_content {
+      top: 320px;
+  
+
+      .banner_title {
+        font-size: 2.5rem;
+      }
+
+      .banner_subtitle {
+        font-size: 1rem;
+      }
+
+      .btn {
+        font-size: 0.9rem;
+        padding: 8px 15px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 452px) {
+    &_content {
+      top: 335px;
+
+      .banner_title {
+        font-size: 2rem;
+      }
+
+      .banner_subtitle {
+        font-size: 0.9rem;
+      }
+    }
+  }
+}
+/*.banner {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+  
+    &_img {
+      // position: absolute;
+      background-image: url("../../assets/img/lampe.jpg");
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  
+    &_content {
+        position: absolute;
+        top: 60px;
+        color: black;
+        z-index: 2; 
+        text-align: left; 
+        max-width: 500px;
+    
+        .banner_heading {
+          font-size: 1.5rem;
+          margin-bottom: 10px;
+          font-weight: bold;
+        }
+    
+
+    .banner_title {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-size: 3rem;
+      text-align: center;
+      font-family: "Playwrite CU", sans-serif;
+    }
+      @media screen and (max-width: 768px) {
+        font-size: 2rem;
+      }
+  
+      @media screen and (max-width: 452px) {
+        margin: 5% 0% 0% 0%;
+      }
+    }
+  
+    .banner_subtitle {
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+      font-size: 1.5rem;
+      text-align: center;
+  
+      @media screen and (max-width: 768px) {
+        font-size: 1rem;
+      }
+  
+      @media screen and (max-width: 452px) {
+        margin: 15% 0% 0% 0%;
+      }
+    }
+    .btn {
+        padding: 10px 20px;
+        font-size: 1rem;
+        background-color: black;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+  
+        &:hover {
+          background-color: white;
+          color: black;
+          border: 1px solid black;
+        }
+      }
+    
+  }
+  */

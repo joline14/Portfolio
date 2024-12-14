@@ -1,3 +1,9 @@
 :root{
   font-family: 'Roboto', sans-serif;
 }
+
+body{
+  margin: auto;
+  -webkit-font-smoothing: antialiased; /* Rendu plus lisse sur WebKit (Chrome, Safari) */
+  -moz-osx-font-smoothing: grayscale; /* Rendu plus propre sur Firefox macOS */
+}
