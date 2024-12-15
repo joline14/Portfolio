@@ -1,4 +1,4 @@
-import img from "../../assets/img/lampe.jpg"
+import img from "../../../public/assets/img/lampe.jpg"
 import "./banner.scss"
 
 // Composant Banner
