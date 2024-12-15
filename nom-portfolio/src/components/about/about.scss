@@ -1,5 +1,8 @@
 .presentation {
-    width: 80%;
+    width: 60%;
+    @media (max-width:768px){
+        width: 100%;
+    }
 }
 
 .presentation_content{
@@ -9,13 +12,3 @@
     margin: 0px 80px;
     color: dimgray;
 }
-/*  
-
-.presentation h2 {
-    display: flex;
-    font-size: 2em;
-    justify-content: center;
-    padding: 2% 0 0;
-    position: relative;
-}
-*/

@@ -1,0 +1,31 @@
+.competences{
+    width: 100%;
+.competences-logos {
+    grid-gap: 1rem;
+    display: grid;
+    grid-template-rows: auto;
+    
+    .logos {
+        align-items: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        height: 10em;
+        padding: 3% 5%;
+        width: auto;
+        justify-items: center;
+        @media (max-width: 1024px){
+            grid-template-columns: 1fr 1fr;
+            height: auto;
+            row-gap: 35px;
+        }
+        @media (max-width: 452px){
+            padding: 0%;
+        }
+        .icon{
+            @media (max-width: 452px){
+                height: 65px;
+            }
+        }
+    }
+}
+}
