@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./card.scss"
 
-function Card ({ projet}){
+function Card ({ projet, toggleModal}){
 
     const [transform, setTransform] = useState({ rotateX: 0, rotateY: 0 });
 
@@ -26,7 +26,7 @@ function Card ({ projet}){
 
     return (
         <div
-            className="card"
+            className="card" onClick={toggleModal}
             style={{
                 transform: `rotateX(${transform.rotateX}deg) rotateY(${transform.rotateY}deg)`,
             }}

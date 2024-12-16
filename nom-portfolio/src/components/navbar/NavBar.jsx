@@ -9,22 +9,22 @@ const NavBar = () => {
         </a>
       </li>
       <li className="header_link">
-        <a href="#"> 
+        <a href="#about"> 
             A propos
         </a>
       </li>
       <li className="header_link">
-        <a href="#">
-            Services
+        <a href="#competence">
+            Compétences
         </a>
       </li>
       <li className="header_link">
-        <a href="#">
+        <a href="#projets">
             Projets
         </a>
       </li>
       <li className="header_link">
-        <a href="#">
+        <a href="#contact">
              Contact
         </a>
       </li>
