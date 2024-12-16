@@ -1,0 +1,16 @@
+.projets{
+    width: 80%;
+}
+.projets_cards{
+    grid-gap: 50px;
+    display: grid;
+    gap: 50px;
+    margin-top: 80px;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    place-items: center;
+    perspective: 1000px;
+    @media (max-width: 1283px){
+        grid-template-columns: 1fr 1fr;
+    }
+}
