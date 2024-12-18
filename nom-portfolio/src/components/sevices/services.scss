@@ -1,0 +1,50 @@
+.service-card {
+    text-align: center;
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+    animation: fadeInUp 0.6s ease-in-out;
+
+    &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    .icon {
+        margin-bottom: 15px;
+        color:dimgrey;
+    }
+
+    .service-title {
+        font-size: 18px;
+        margin: 10px 0;
+        color: #333;
+    }
+
+    .service-description {
+        font-size: 14px;
+        color: #666;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+    .services-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        padding: 0% 8%;
+    }
+

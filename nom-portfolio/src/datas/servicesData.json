@@ -1,0 +1,39 @@
+[
+    {
+      "icon": "fas fa-desktop",
+      "title": "Multi - plateforme",
+      "description": "Compatible tous supports, tablette & application mobile",
+      "delay": "0s"
+    },
+    {
+      "icon": "fas fa-code",
+      "title": "Développement Web",
+      "description": "Création de site web | Application sur-mesure répondant aux besoins des clients",
+      "delay": "0.1s"
+    },
+    {
+      "icon": "fab fa-sketch",
+      "title": "Projets web",
+      "description": "Landing page, site vitrine, e-commerce, intranet, application web & mobile.",
+      "delay": "0.2s"
+    },
+    {
+      "icon": "fas fa-bullseye",
+      "title": "Référencement",
+      "description": "CMS | Framework, code optimisé pour le référencement naturel",
+      "delay": "0.3s"
+    },
+    {
+      "icon": "far fa-handshake",
+      "title": "Accompagnement",
+      "description": "Je gère entièrement les projets en assurant une communication constante",
+      "delay": "0.4s"
+    },
+    {
+      "icon": "fas fa-rocket",
+      "title": "Maintenance Web",
+      "description": "Gestion d'hébérgement, garanti d'accessibilité, intégration régulière des mises à jour de sécurité",
+      "delay": "0.5s"
+    }
+  ]
+  
