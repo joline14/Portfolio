@@ -1,6 +1,6 @@
 import React from "react";
 
-function NavBar ({ isMenuOpen }){
+function NavBar({ isMenuOpen }) {
     return (
         <ul className={`header_links ${isMenuOpen ? "open" : ""}`}>
             <li className="header_link">
@@ -16,10 +16,12 @@ function NavBar ({ isMenuOpen }){
                 <a href="#projets">Projets</a>
             </li>
             <li className="header_link">
-                <a href="#contact">Service</a>
+                <a href="#services">Services</a>
             </li>
             <li className="header_link">
-                <a href="#">Mon CV</a>
+                <a href="/assets/CV_joline_sinci.pdf"
+                    target="_blank"
+                    rel="noopener noreferrer">Mon CV</a>
             </li>
         </ul>
     );

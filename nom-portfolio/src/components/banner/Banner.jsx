@@ -12,7 +12,14 @@ function Banner() {
         <p className="banner_subtitle">
             Spécialisé dans le développement front-end, je mets en œuvre des solutions techniques innovantes pour créer des expériences digitales engageantes et modernes.
         </p>
-        <button className="btn">Contactez-moi</button>
+          <a
+            className="btn"
+            href="/assets/CV_joline_sinci.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Contactez-moi
+          </a>
       </div>
     </div>
   );
