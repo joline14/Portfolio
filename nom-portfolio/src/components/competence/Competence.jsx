@@ -9,7 +9,7 @@ function Competence() {
 
 
     return (
-        <div className='competences'>
+        <div className='competences' id="competence">
             <h2>Compétences</h2>
             <div className='competences-logos'>
                 <div className="logos">

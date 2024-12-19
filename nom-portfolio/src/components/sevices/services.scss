@@ -46,5 +46,11 @@
         grid-template-columns: 1fr 1fr 1fr;
         gap: 20px;
         padding: 0% 8%;
+        @media (max-width: 1024px){
+            grid-template-columns: 1fr 1fr;
+        }
+        @media (max-width: 766px){
+            grid-template-columns: 1fr;
+        }
     }
 

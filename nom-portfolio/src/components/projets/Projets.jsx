@@ -27,7 +27,7 @@ function Projet() {
     }, [modal]);
 
     return (
-        <div className="projets">
+        <div className="projets" id="projets">
             <h2>Projets</h2>
             {/* Passer la fonction setSelectedTech au composant Filter */}
             <Filter onFilterChange={setSelectedTech} selectedCategory={selectedTech} />

@@ -15,7 +15,7 @@
   
     &_content {
       position: absolute;
-      top: 380px; 
+      top: 330px; 
       left: 50px; 
       color: black;
       z-index: 2; 
@@ -42,26 +42,40 @@
       .btn {
         padding: 10px 20px;
         font-size: 1rem;
-        background-color: black;
-        color: white;
+        background-color: #000;
+        color: #fff;
+        text-decoration: none;
         border: none;
         border-radius: 5px;
         cursor: pointer;
         transition: all 0.3s ease-in-out;
   
         &:hover {
-          background-color: white;
-          color: black;
-          border: 1px solid black;
+          background-color: #fff;
+          color: #000;
         }
+        
       }
     }
  
-
+    button {
+      border: none;
+      background: none;
+      padding: 0;
+      cursor: pointer;
+    }
+    @media screen and (max-width: 1024px){
+      &_content{
+        top: 280px;
+      }
+      }
+      @media screen and (max-width: 951px){
+        &_content{
+          top: 140px;
+        }
+      }
 @media screen and (max-width: 768px) {
     &_content {
-      top: 320px;
-  
 
       .banner_title {
         font-size: 2.5rem;
@@ -80,7 +94,6 @@
 
   @media screen and (max-width: 452px) {
     &_content {
-      top: 335px;
 
       .banner_title {
         font-size: 2rem;
@@ -90,5 +103,7 @@
         font-size: 0.9rem;
       }
     }
+   
   }
+ 
 }
