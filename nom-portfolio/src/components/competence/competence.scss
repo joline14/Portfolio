@@ -29,3 +29,32 @@
     }
 }
 }
+/* Container pour les icônes */
+.logos .icon {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Animation fluide */
+  cursor: pointer;
+}
+
+/* Zoom sur le survol */
+.logos .icon:hover {
+  transform: scale(1.2); /* Agrandit l'icône */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Ajoute une ombre */
+}
+
+/* Animation continue (pulsation) */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* Appliquer une pulsation en boucle sur toutes les icônes */
+.logos .icon {
+  animation: pulse 2s infinite;
+}
