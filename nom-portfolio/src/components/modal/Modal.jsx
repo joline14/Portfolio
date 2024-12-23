@@ -16,7 +16,7 @@ function Modal({ projet, toggleModal, isOpen }) {
 
     return (
         <div className={`modal ${visible ? 'is-open' : ''}`}>
-            <div className='modal_container'>
+            <div className='modal_container' onClick={toggleModal}>
                 <img src={projet.cover} alt={projet.title} />
                 <div className='modal_content'>
                     <h4>{projet.title}</h4>

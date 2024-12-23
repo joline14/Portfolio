@@ -3,6 +3,7 @@ import About from "../../components/about/About";
 import Competence from "../../components/competence/Competence";
 import Projet from "../../components/projets/Projets";
 import Services from "../../components/sevices/Services";
+import Footer from "../../components/footer/Footer"
 import "./homepage.scss"
 
 
@@ -25,6 +26,7 @@ function HomePage() {
         <section className="contact-section">
           <Services/>
         </section>
+        <Footer/>
       </div>
     </main>
   )
